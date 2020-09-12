@@ -32,6 +32,7 @@ class Piece:
         self.row = row
         self.col = col
         self.calc_pos()
-
+    
+    # return the color in string format
     def __repr__(self):
         return str(self.color)
