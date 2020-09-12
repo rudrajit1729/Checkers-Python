@@ -1,5 +1,5 @@
 import pygame
-from .constants import BLACK, ROWS, RED, SQUARE_SIZE, COLS, WHITE
+from .constants import BLACK, ROWS, RED, WHITE, SQUARE_SIZE, COLS
 from .piece import Piece
 
 class Board:
