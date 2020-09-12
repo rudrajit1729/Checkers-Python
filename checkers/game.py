@@ -40,6 +40,7 @@ class Game:
             
         return False
 
+    # _move is private to this class
     def _move(self, row, col):
         piece = self.board.get_piece(row, col)
         if self.selected and piece == 0 and (row, col) in self.valid_moves:
